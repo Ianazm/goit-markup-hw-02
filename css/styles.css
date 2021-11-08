@@ -17,7 +17,6 @@
 /*Загальні стилі*/
 body {
   font-family: Roboto, sans-serif;
-
   color: var(--title-text-color);
   font-size: 14px;
 }
@@ -34,17 +33,12 @@ li {
   list-style: none;
 }
 
-header .logo {
+.logo {
   color: var(--logo-text-color);
   font-family: Raleway;
   font-weight: 700;
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.14;
 }
 
 body p {
@@ -53,7 +47,7 @@ body p {
 
 .title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -65,13 +59,15 @@ footer {
 
 /*header*/
 
+.logo-color {
+  color: rgb(0, 0, 0);
+}
+
 .list-nav a {
-  position: absolute;
-  height: 16px;
-  top: 32px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .list-nav .studio {
@@ -84,90 +80,46 @@ footer {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .list-nav .portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .list-nav .contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .header-contacts .info {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
 }
 
 .header-contacts .tel {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
-  font-weight: 900;
-  font-size: 44px;
   line-height: 1.36;
-
   text-transform: uppercase;
 }
 
@@ -207,22 +159,10 @@ header {
 /*hero*/
 
 .hero {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background-color: #2f303a;
 }
 
 .hero-title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -236,13 +176,9 @@ header {
 .hero button {
   color: #ffffff;
   background: #2196f3;
-  font-weight: bold;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -251,31 +187,17 @@ header {
 }
 
 .benefits h3 {
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  top: 774px;
-
-  font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefits p {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  top: 800px;
-
-  font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.2;
-  /* or 171% */
-
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -293,16 +215,9 @@ header {
 }
 
 .title.work {
-  position: absolute;
-  width: 376px;
-  height: 42px;
-  left: 612px;
-  top: 969px;
-
-  font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -312,16 +227,6 @@ header {
   width: 370px;
   height: 294px;
   top: 1061px;
-}
-
-.item-work {
-  left: 215px;
-}
-.item-work1 {
-  left: 615px;
-}
-.item-work2 {
-  left: 1015px;
 }
 
 /*OUR TEAM*/
@@ -335,13 +240,14 @@ header {
 .item-team > img {
 }
 
-/*footer*/
-
-footer .logo {
-  color: var(--logo-text-color);
-  font-family: Raleway;
-  font-weight: 700;
+.item-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
+
+/*footer*/
 
 .footer-adress {
   color: #ffffff;
@@ -367,13 +273,27 @@ footer .logo {
   color: var(--link-hover-color);
 }
 
+.footer-adress,
+.footer-mail,
+.footer-tel {
+  cursor: default;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  cursor: default;
+}
 /*--------------СТОРІНКА ПОРТФОЛІО-----------------------*/
 
 /*header*/
 li [type] {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  text-align: center;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 li [type]:focus,
@@ -383,12 +303,17 @@ li [type]:hover {
 }
 /*Портфолио*/
 .list-portfolio h2 {
-  font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .list-portfolio p {
-  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .list-portfolio a {
