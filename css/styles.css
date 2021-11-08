@@ -71,13 +71,6 @@ footer {
 }
 
 .list-nav .studio {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
