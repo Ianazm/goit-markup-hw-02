@@ -84,7 +84,7 @@ footer {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -98,7 +98,7 @@ footer {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -112,7 +112,7 @@ footer {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -126,7 +126,7 @@ footer {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -149,7 +149,7 @@ header {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -259,7 +259,7 @@ header {
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -273,7 +273,7 @@ header {
   font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.2;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -302,7 +302,7 @@ header {
   font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
