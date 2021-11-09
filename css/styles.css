@@ -64,6 +64,8 @@ footer {
 }
 
 .list-nav a {
+  font-family: Roboto;
+  font-style: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -91,7 +93,9 @@ footer {
   letter-spacing: 0.02em;
 }
 
-.header-contacts .info {
+.header-mail,
+.header-tel {
+  font-style: 400;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -100,13 +104,6 @@ footer {
 
 header {
   background: #ffffff;
-}
-
-.header-contacts .tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -150,6 +147,10 @@ header {
 }
 
 /*hero*/
+
+.hero-button {
+  font-family: Roboto, sans-serif;
+}
 
 .hero {
   background-color: #2f303a;
@@ -275,6 +276,10 @@ header {
   letter-spacing: 0.03em;
 }
 
+.footer-adress {
+  font-style: normal;
+}
+
 .logo {
   cursor: default;
 }
@@ -302,6 +307,14 @@ li [type]:hover {
   letter-spacing: 0.06em;
 }
 
+.hidden-title {
+  display: none;
+}
+
+.portfolio-button {
+  font-family: Roboto, sans-serif;
+}
+
 .list-portfolio p {
   font-weight: 400;
   font-size: 16px;
@@ -311,4 +324,8 @@ li [type]:hover {
 
 .list-portfolio a {
   color: #212121;
+}
+
+.logo-color-footer {
+  color: #ffffff;
 }
